@@ -1,0 +1,7 @@
+Commands
+
+
+schedule    Plans for the termination of a process.
+ display    Shows processes ready for cessation.
+  remove    Deletes the startup script.
+    exit    Terminates the script.
