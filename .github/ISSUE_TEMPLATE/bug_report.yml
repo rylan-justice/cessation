@@ -46,7 +46,3 @@ body:
     placeholder: e.g., 1.0.0
   validations:
     required: true
-
-- type: markdown
-  attributes:
-    value: '**We greatly appreciate your time and effort in completing this bug report. Thank you!**'
