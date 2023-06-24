@@ -34,11 +34,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    attributes:
-      label: Screenshots
-      description: If it is feasible, kindly furnish screenshots
-
   - type: input
     attributes:
       label: Version
