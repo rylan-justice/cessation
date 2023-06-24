@@ -1,0 +1,48 @@
+name: Bug Report
+description: Submit a bug report
+title: 'Bug: '
+assignees: [rylan-justice]
+labels: [bug-report]
+
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: By checking the boxes below, I agree to the following
+      options:
+        - label: I hereby consent to adhere to the [Code of Conduct](https://github.com/rylan-justice/cessation/blob/main/CODE_OF_CONDUCT.md).
+          required: true
+        - label: I have confirmed that my issue has [not been submitted](https://github.com/rylan-justice/cessation/issues).
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Please provide a concise account of what transpired
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Reproduce
+      description: Please provide the necessary steps to produce the bug
+      placeholder: |-
+        1.
+        2.
+        3.
+        4.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If it is feasible, kindly furnish screenshots
+
+  - type: input
+    attributes:
+      label: Version
+      description: The version which you are using
+      placeholder: e.g., 1.0.0
+    validations:
+      required: true
