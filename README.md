@@ -13,4 +13,4 @@ Cessation is a script that initiates the termination of startup processes.
 
 ## License
 
-Cessation is licensed under the [GNU General Public License v3.0 or later](COPYING).
+[GNU General Public License v3.0 or later](COPYING)
