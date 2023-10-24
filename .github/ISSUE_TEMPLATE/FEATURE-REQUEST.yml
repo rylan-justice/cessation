@@ -1,0 +1,20 @@
+name: Feature Request
+description: Submit a feature request
+title: "Feature: "
+labels: ["feature"]
+assignees:
+  - rylan-justice
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: By checking the box below, I agree to the following
+      options:
+        - label: I have confirmed that this feature request has [not been submitted](https://github.com/rylan-justice/cessation/labels/feature).
+          required: true
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Please provide a detailed description of the proposed new feature
+    validations:
+      required: true

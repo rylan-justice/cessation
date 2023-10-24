@@ -1,0 +1,32 @@
+name: Bug Report
+description: Submit a bug report
+title: "Bug: "
+labels: ["bug"]
+assignees:
+  - rylan-justice
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: By checking the box below, I agree to the following
+      options:
+        - label: I have confirmed that this bug report has [not been submitted](https://github.com/rylan-justice/cessation/labels/bug).
+          required: true
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Please provide a concise account of what transpired
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduce
+      description: Please provide the necessary steps to produce the bug
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version
+      description: The version which you are using
+    validations:
+      required: true
