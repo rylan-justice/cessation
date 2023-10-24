@@ -1,0 +1,7 @@
+Commands
+
+
+schedule    Schedule the termination of processes.
+ display    Display processes ready for cessation.
+  remove    Remove the startup script.
+    exit    Exit Cessation.
