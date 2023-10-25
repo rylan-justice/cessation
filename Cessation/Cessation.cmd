@@ -19,7 +19,7 @@
 @echo off
 title Cessation
 
-set startup_script="%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\Cessation.cmd"
+set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cessation.cmd"
 
 :main
   cls
