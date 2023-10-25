@@ -21,8 +21,6 @@ body:
     attributes:
       label: Reproduce
       description: Please provide the necessary steps to produce the bug
-    validations:
-      required: true
   - type: input
     attributes:
       label: Version
