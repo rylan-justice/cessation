@@ -41,7 +41,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
 :schedule
   cls
-  set /p "program_name=Program name <program.exe>: "
+  set /p "program_name=Program name <program>.exe: "
 
   if "%program_name:~-4%" neq ".exe" (
     goto schedule
