@@ -1,6 +1,5 @@
 name: Feature Request
 description: Submit a feature request
-title: "Feature: "
 labels: ["feature"]
 assignees:
   - rylan-justice

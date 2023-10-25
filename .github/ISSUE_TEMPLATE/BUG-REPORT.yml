@@ -1,6 +1,5 @@
 name: Bug Report
 description: Submit a bug report
-title: "Bug: "
 labels: ["bug"]
 assignees:
   - rylan-justice
@@ -27,6 +26,6 @@ body:
   - type: input
     attributes:
       label: Version
-      description: The version which you are using
+      description: Please provide the version of Cessation that you are using
     validations:
       required: true
