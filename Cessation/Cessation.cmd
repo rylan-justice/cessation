@@ -68,7 +68,6 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   ) else (
     echo Cannot display the startup script because it is missing.
   )
-
   goto interlude
 
 :remove
@@ -77,7 +76,6 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   ) else (
     echo Cannot remove the startup script because it is missing.
   )
-
   goto interlude
 
 :exit
