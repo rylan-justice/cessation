@@ -7,13 +7,13 @@ body:
   - type: checkboxes
     attributes:
       label: Prerequisite
-      description: By checking the box below, I agree to the following
+      description: By checking the box below, you agree to the following
       options:
         - label: I have confirmed that this feature request has [not been submitted](https://github.com/rylan-justice/cessation/issues?q=is:issue+label:feature).
           required: true
   - type: textarea
     attributes:
-      label: Summary
+      label: Synopsis
       description: Please provide a detailed description of the proposed new feature
     validations:
       required: true
