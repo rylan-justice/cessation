@@ -1,6 +1,6 @@
 :: SPDX-License-Identifier: GPL-3.0-or-later
 ::
-:: Cessation: A script that initiates the termination of startup processes.
+:: Cessation: Initiates the termination of startup processes.
 :: Copyright (C) 2023  Rylan Justice
 ::
 :: This program is free software: you can redistribute it and/or modify
