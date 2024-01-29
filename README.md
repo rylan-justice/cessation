@@ -1,6 +1,6 @@
 # Cessation
 
-A script that initiates the termination of startup processes.
+Initiates the termination of startup processes
 
 ## Installation
 
