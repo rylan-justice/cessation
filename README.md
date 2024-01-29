@@ -1,6 +1,6 @@
 # Cessation
 
-Initiates the termination of startup processes
+Initiates the termination of startup processes.
 
 ## Installation
 
