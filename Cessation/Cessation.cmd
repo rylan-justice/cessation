@@ -23,7 +23,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
 :main
   cls
-  type data\menus\main.txt
+  type menus\main.txt
   set /p "command_prompt=> " || goto main
   cls
   call :%command_prompt%
@@ -36,7 +36,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   goto main
 
 :help
-  type data\menus\help.txt
+  type menus\help.txt
   goto interlude
 
 :schedule
