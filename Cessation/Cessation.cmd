@@ -17,7 +17,7 @@
 :: along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 @echo off
-title Cessation
+title %~n0
 
 set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cessation.cmd"
 
