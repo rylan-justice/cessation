@@ -26,6 +26,6 @@ body:
   - type: input
     attributes:
       label: Version
-      description: Please provide the version of Cessation you are using
+      description: Please provide the version you are using
     validations:
       required: true
