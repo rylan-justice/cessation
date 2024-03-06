@@ -13,7 +13,7 @@ body:
           required: true
   - type: textarea
     attributes:
-      label: Synopsis
+      label: Proposal
       description: Please provide a detailed description of the proposed new feature
     validations:
       required: true
