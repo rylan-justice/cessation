@@ -9,7 +9,7 @@ body:
       label: Prerequisite
       description: By checking the box below, you agree to the following
       options:
-        - label: I have confirmed that this feature request has [not been submitted](https://github.com/rylan-justice/cessation/issues?q=is:issue+label:feature).
+        - label: I have confirmed that this feature request has [not been submitted](https://github.com/rylan-justice/cessation/issues?q=is:issue+label:feature)
           required: true
   - type: textarea
     attributes:
