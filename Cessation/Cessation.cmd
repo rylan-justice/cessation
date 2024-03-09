@@ -43,25 +43,19 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   cls
   set /p "program_name=Program name <program>.exe: "
 
-  if "%program_name:~-4%" neq ".exe" (
-    goto schedule
-  )
+  if "%program_name:~-4%" neq ".exe" goto schedule
 
   echo:
   echo:
   set /p "termination_delay=Termination delay [0-99999]s: "
 
-  if not defined termination_delay (
-    goto schedule
-  )
+  if not defined termination_delay goto schedule
 
   for /f "delims=0123456789" %%a in ("%termination_delay%") do (
     goto schedule
   )
 
-  if %termination_delay% gtr 99999 (
-    set termination_delay=99999
-  )
+  if %termination_delay% gtr 99999 set termination_delay=99999
 
   echo @timeout /t %termination_delay% ^& taskkill /im "%program_name%" /t /f>>%startup_script%
   goto interlude
