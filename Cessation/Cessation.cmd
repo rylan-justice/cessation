@@ -30,8 +30,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   goto main
 
 :interlude
-  echo.
-  echo.
+  echo. & echo.
   pause
   goto main
 
@@ -45,8 +44,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
   if "%program_name:~-4%" neq ".exe" goto schedule
 
-  echo.
-  echo.
+  echo. & echo.
   set /p "termination_delay=Termination delay [0-99999]s: "
 
   if not defined termination_delay goto schedule
