@@ -54,7 +54,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
   if %termination_delay% gtr 99999 set termination_delay=99999
 
-  echo @timeout /t %termination_delay% ^& taskkill /im "%program_name%" /t /f>>%startup_script%
+  echo @timeout /t %termination_delay% ^& taskkill /im "%program_name%" /t /f ^>nul 2^>^&^1>>%startup_script%
   goto interlude
 
 :display
