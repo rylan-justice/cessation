@@ -50,9 +50,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
   if not defined termination_delay goto schedule
 
-  for /f "delims=0123456789" %%a in ("%termination_delay%") do (
-    goto schedule
-  )
+  for /f "delims=0123456789" %%a in ("%termination_delay%") do goto schedule
 
   if %termination_delay% gtr 99999 set termination_delay=99999
 
