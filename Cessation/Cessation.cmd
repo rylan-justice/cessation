@@ -19,7 +19,6 @@ rem along with this program.  If not, see <https://www.gnu.org/licenses/>.
 @echo off
 title %~n0
 
-set newlines=echo. ^& echo.
 set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cessation.cmd"
 
 :main
@@ -31,7 +30,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   goto main
 
 :interlude
-  %newlines%
+  echo. & echo.
   pause
   goto main
 
@@ -45,7 +44,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
   if "%program_name:~-4%" neq ".exe" goto schedule
 
-  %newlines%
+  echo. & echo.
   set /p "termination_delay=Termination delay [0-99999]s: "
 
   if not defined termination_delay goto schedule
