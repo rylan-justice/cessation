@@ -59,11 +59,13 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
 :display
   if not exist %startup_script% echo Cannot display the startup script because it is missing.
+
   type %startup_script% 2>nul
   goto interlude
 
 :remove
   if not exist %startup_script% echo Cannot remove the startup script because it is missing.
+
   del /p %startup_script% 2>nul
   goto interlude
 
