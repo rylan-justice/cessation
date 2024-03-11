@@ -1,3 +1,5 @@
+@echo off
+
 rem SPDX-License-Identifier: GPL-3.0-or-later
 rem
 rem Cessation: Initiates the termination of startup processes.
@@ -16,7 +18,6 @@ rem
 rem You should have received a copy of the GNU General Public License
 rem along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-@echo off
 title %~n0
 
 set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cessation.cmd"
