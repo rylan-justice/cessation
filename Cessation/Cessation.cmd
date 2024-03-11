@@ -3,7 +3,7 @@
 rem SPDX-License-Identifier: GPL-3.0-or-later
 rem
 rem Cessation: Initiates the termination of startup processes.
-rem Copyright (C) 2023  Rylan Justice
+rem Copyright (C) 2023-2024  Rylan Justice
 rem
 rem This program is free software: you can redistribute it and/or modify
 rem it under the terms of the GNU General Public License as published by
