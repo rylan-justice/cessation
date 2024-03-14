@@ -25,9 +25,9 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 :main
   cls
   type menus\main.txt
-  set /p "command_prompt=> " || goto main
+  set /p "user_input=> " || goto main
   cls
-  call :%command_prompt%
+  call :%user_input%
   goto main
 
 :interlude
