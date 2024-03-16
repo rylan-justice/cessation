@@ -41,7 +41,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
 :schedule
   cls
-  set /p "program_name=Program name <program>.exe: "
+  set /p "program_name=Program name <program>.<extension>: "
   %newlines%
   set /p "termination_delay=Termination delay [0-99999]s: "
 
