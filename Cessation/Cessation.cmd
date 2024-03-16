@@ -32,7 +32,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
 
 :interlude
   %newlines%
-  pause
+  pause >nul
   goto main
 
 :help
