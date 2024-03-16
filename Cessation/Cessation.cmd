@@ -29,8 +29,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   cls & call :%command% || goto main
 
 :interlude
-  %newlines%
-  pause >nul
+  %newlines% & pause >nul
   goto main
 
 :help
