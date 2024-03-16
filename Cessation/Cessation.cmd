@@ -24,11 +24,9 @@ set newlines=echo. ^& echo.
 set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cessation.cmd"
 
 :main
-  cls
-  type menus\main.txt
+  cls & type menus\main.txt
   set /p "command=> " || goto main
-  cls
-  call :%command% || goto main
+  cls & call :%command% || goto main
 
 :interlude
   %newlines%
@@ -40,8 +38,7 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   goto interlude
 
 :schedule
-  cls
-  set /p "program_name=Program name <program>.<extension>: "
+  cls & set /p "program_name=Program name <program>.<extension>: "
   %newlines%
   set /p "termination_delay=Termination delay [0-99999]s: "
 
