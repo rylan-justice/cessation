@@ -37,13 +37,9 @@ set startup_script="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Cess
   goto interlude
 
 :schedule
-  cls & set /p "program=Program <name>.<extension>: "
+  cls & set /p "program=Program <name>.<extension>: " || goto schedule
 
-  if not defined program goto schedule
-
-  %newlines% & set /p "termination_delay=Termination delay [0-99999]s: "
-
-  if not defined termination_delay goto schedule
+  %newlines% & set /p "termination_delay=Termination delay [0-99999]s: " || goto schedule
 
   for /f "delims=0123456789" %%a in ("%termination_delay%") do goto schedule
 
