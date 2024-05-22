@@ -4,13 +4,6 @@ labels: ["bug"]
 assignees:
   - rylan-justice
 body:
-  - type: checkboxes
-    attributes:
-      label: Prerequisite
-      description: By checking the box below, you agree to the following.
-      options:
-        - label: I have confirmed that this bug report has [not been submitted](https://github.com/rylan-justice/cessation/issues?q=is:issue+label:bug)
-          required: true
   - type: textarea
     attributes:
       label: Summary
